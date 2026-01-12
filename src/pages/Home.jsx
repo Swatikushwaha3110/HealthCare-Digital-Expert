@@ -1,19 +1,19 @@
 import Hero from "../components/Hero";
-import ServicesSection from "../components/ServicesSection";
-import Specialties from "../components/Specialties";
 import WhyChooseUs from "../components/WhyChooseUs";
-import Portfolio from "../components/Portfolio";
-import ContactSection from "../components/ContactSection";
+import InfoStrip from "../components/InfoStrip";
+import About from "./About";
+import Services from "./Services";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <ServicesSection />
-      <Specialties />
+      <InfoStrip/>
+      <About/>
+      <Services />
       <WhyChooseUs />
-      <Portfolio />
-      <ContactSection />
+      <Contact/>
     </>
   );
 };
